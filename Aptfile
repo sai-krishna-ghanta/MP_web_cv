@@ -4,5 +4,4 @@ libfontconfig1
 libice6
 libatlas-base-dev
 python3-pyqt5
-libqtgui4
 libjasper-dev
