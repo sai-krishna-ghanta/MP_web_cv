@@ -26,5 +26,3 @@ def app():
     if st.button("About Developer"):
         link2 = '[Linkedin Profile](https://www.linkedin.com/in/ghanta-sai-krishna-320ab0211/)'
         st.markdown(link2, unsafe_allow_html=True)
-
-app()
