@@ -36,7 +36,7 @@ def app():
     st.markdown(html_temp, unsafe_allow_html=True)
 
 
-    image_file = st.file_uploader("Upload Image", type=['jpg', 'png', 'jpeg'])
+    image_file = st.file_uploader("Upload Image", type=['jpg'])
     if image_file is not None:
         our_image = np.array(Image.open(image_file))
         st.text("DONE")
