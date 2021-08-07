@@ -3,7 +3,7 @@ import streamlit as st
 def app():
     html_temp = """
         <body style="background-color:red;">
-        <div style="background-color:Teal ;padding:10px">
+        <div style="background-color:Crimson ;padding:10px">
         <h2 style="color:white;text-align:center;">Advanced Computer Vision</h2>
         </div>
         </body>
