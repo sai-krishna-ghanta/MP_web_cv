@@ -11,7 +11,7 @@ def main(image_file):
     with mp_face_mesh.FaceMesh(
         static_image_mode=True,
         max_num_faces=1,
-        min_detection_confidence=0.5) as face_mesh:
+        min_detection_confidence=0) as face_mesh:
             image = image_file
             results = face_mesh.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
             annotated_image = image.copy()
