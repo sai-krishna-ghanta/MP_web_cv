@@ -11,7 +11,7 @@ mp_drawing = mp.solutions.drawing_utils
 
 def main(image_file):
     with mp_face_detection.FaceDetection(
-        model_selection=1, min_detection_confidence=0.5) as face_detection:
+        model_selection=1, min_detection_confidence=0) as face_detection:
 
         image = image_file
         # Convert the BGR image to RGB and process it with MediaPipe Face Detection.
