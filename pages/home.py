@@ -13,7 +13,7 @@ def app():
     st.success("Developed by G Sai Krishna")
     if st.button("How To Use"):
         st.text("First,You must know about all the features in it")
-        st.text("Try to figure out exactly what must be the inputs and get accurate predictions")
+        st.success("Visit GITHUB Repository")
     if st.button("Input format and Handling errors"):
         st.success("Input format must be JPG for accurate estimations")
         st.success("NoneType error was due to Improper image input or the algo is unable to find what you need")
