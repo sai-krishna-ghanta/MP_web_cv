@@ -11,7 +11,7 @@ mp_objectron = mp.solutions.objectron
 def main(image_file):
     with mp_objectron.Objectron(static_image_mode=True,
                             max_num_objects=5,
-                            min_detection_confidence=0.5,
+                            min_detection_confidence=0,
                             model_name='Shoe') as objectron:
         image = image_file
         results = objectron.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
