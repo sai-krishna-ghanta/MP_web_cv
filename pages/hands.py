@@ -12,7 +12,7 @@ def main(image_file):
     with mp_hands.Hands(
         static_image_mode=True,
         max_num_hands=2,
-        min_detection_confidence=0.5) as hands:
+        min_detection_confidence=0) as hands:
         image = image_file
         # Convert the BGR image to RGB before processing.
         results = hands.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
