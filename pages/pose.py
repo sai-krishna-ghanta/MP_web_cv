@@ -28,7 +28,7 @@ def main(image_file):
 def app():
     html_temp = """
         <body style="background-color:red;">
-        <div style="background-color:Teal ;padding:10px">
+        <div style="background-color:MidnightBlue ;padding:10px">
         <h2 style="color:white;text-align:center;">Pose estimation</h2>
         </div>
         </body>
